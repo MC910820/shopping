@@ -1,0 +1,25 @@
+package com.study.notice;
+ 
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+import org.springframework.ui.Model;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+ 
+@Controller
+public class NoticeController {
+	@Autowired
+	@Qualifier("com.study.notice.NoticeServiceImpl")
+	private NoticeService service;
+  @GetMapping("/")
+  public String home() {
+   
+    return "/home";
+
+
+  
+  }
+}

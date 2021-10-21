@@ -1,0 +1,19 @@
+INDEX VERSION 1.131
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\827803799.index
+\shopping\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2955893758.index
+\notice\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1083672204.index
+\notice\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\626255032.index
+\shopping\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3814924473.index
+\spring_bbs\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3071430114.index
+\spring_bbs\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4140173976.index
+\shopping\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\315442787.index
+\shopping\src\main\java
+C:\aistudy\ogt_clone\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3459233058.index
+\shopping\src\main\java

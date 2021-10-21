@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<c:set var="list" value="${list}"/>
+<div class="row">
+    <c:forEach var="" begin="0" end="3" items="${list}">
+    <div class="col-sm-3">
+      <h3>${dto.pname}</h3>
+      <a href="/contents/detail/${dto.contentsno }">
+       <p><img src="/pstorage/${dto.filename }" class="img-thumbnail"  width="236" height="306"></p></a>
+        <p>${dto.pname}<br><b>${dto.price }</b></p>
+    </div>
+    </c:forEach>
+    <p>상품 설명:${dto.detail}</p>
+    <br>
+   if(${dto.stock}<5){%>
+<h3>품절 임박!!! 재고가 ${dto.stock}개 남았습니다. </h3>
+}else{
+<h3>재고:${dto.stock}</h3>
+
+}
+    <script type="text/javascript">
+
+    var a=new Date("2018. 12. 13");
+    var b=new Date();
+    var diff= b.getTime()- a.getTime();
+    diff=b-a; 
+    </script>
+</head>
+<body>
+
+</body>
+</html>
